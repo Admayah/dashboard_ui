@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  background-color: #F7F8FA;
+  color: #7D8FB3;
+  font-family: Roboto;
+  font-weight: 700;
+  max-width: 1550px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}

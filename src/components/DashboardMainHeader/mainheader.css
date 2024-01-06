@@ -1,0 +1,154 @@
+.mainHeader {
+  flex: 7.5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 100px);
+
+  position: relative;
+  /* overflow: hidden; */
+}
+.u {
+  overflow-y: scroll;
+}
+.u::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.mainHeaderWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 30px;
+  border-bottom: 2px solid #f5f6f7;
+}
+.headerTopLeft {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.headerTopCenter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.onlineStatusWrapper {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.onlineStatus {
+  width: 8px;
+  height: 8px;
+  border-radius: 100px;
+  background: #29cc39;
+}
+.headerTopRight {
+  display: flex;
+  align-items: flex-start;
+  gap: 21px;
+}
+
+.headerBottom {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  align-self: stretch;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.separator span {
+  padding: 5px 15px;
+  border-radius: 15px;
+  border: 2px solid #f5f6f7;
+  background: #fff;
+  font-size: 10px;
+  font-weight: 900;
+  line-height: 20px;
+
+  /* Shadows/Gray Blue 30/3%/5b */
+  box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.25em;
+}
+.postInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.fileType {
+  display: flex;
+  gap: 15px;
+}
+.fileSize {
+  color: #3361ff;
+}
+.progressWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.progressHeader {
+  display: flex;
+  justify-content: space-between;
+  color: #3361ff;
+}
+.progressBarWrapper {
+  background: #dadee6;
+  border: 1px solid #3361ff;
+}
+.postImg {
+  display: flex;
+  gap: 20px;
+}
+.chatWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* bottom: 0; */
+  border-top: 2px solid #f5f6f7;
+}
+.chatLeft {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.chatInput {
+  width: 100%;
+}
+.chatInput input {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  background-color: #f5f6f7;
+}
+.chatInput input:focus {
+  outline: none;
+}

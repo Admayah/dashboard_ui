@@ -1,0 +1,109 @@
+.navbar {
+  display: flex;
+  height: 100px;
+  padding: 0px 25px;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-bottom: 2px solid #edeff2;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex: 2;
+}
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 30px;
+  /* border: 1px solid red; */
+}
+
+.topCenter {
+  flex: 6;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.navLinks a {
+  font-size: 13px;
+  line-height: 25px;
+  color: #7d8fb3;
+}
+.searchInputWrapper {
+  display: flex;
+  width: 430px;
+  height: 50px;
+  padding: 15px 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  background: #fff;
+
+  /* Shadows/Gray Blue 30/3%/5b */
+  box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}
+
+.searchInput {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.searchInput input {
+  border: none;
+}
+.searchInput input:focus {
+  outline: none;
+}
+.topRight {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex: 2;
+}
+.avatarAndUsername {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.username {
+  font-size: 13px;
+  line-height: 25px;
+  white-space: nowrap;
+}
+.navIcon {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  background: #fff;
+  position: relative;
+
+  /* Shadows/Gray Blue 30/3%/5b */
+  box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}
+.online {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: 0;
+  top: 0;
+  border-radius: 100px;
+  background: #e62e7b;
+
+  /* Shadows/Gray Blue 30/3%/10b */
+  box-shadow: 0px 2px 10px 0px rgba(38, 51, 77, 0.03);
+}

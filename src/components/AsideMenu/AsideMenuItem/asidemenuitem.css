@@ -1,0 +1,46 @@
+.asideMenuItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.asideMenuItemWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menuItemInfo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.userImg {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.asideMenuItemText {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.menuItemStatus {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+.currentStatusValue,
+.currentTimeValue {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.currentStatusValue {
+    color: #29CC39;
+}
+
+.grayColor{
+    color: #7D8FB3;
+}
+.yellowColor {
+    color: #FFCB33;
+}

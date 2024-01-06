@@ -1,0 +1,15 @@
+.asideType {
+  width: 100%;
+}
+.asideTypeWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+}
+.typeText{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #7D8FB3;
+}
