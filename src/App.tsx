@@ -3,7 +3,6 @@ import DashboardAside from "./components/DashboardAside/DashboardAside";
 import MainHeader from "./components/DashboardMainHeader/MainHeader";
 import DashboardMenu from "./components/DashboardMenu/DashboardMenu";
 import Header from "./components/Header/Header";
-import PostCard from "./components/Post/PostCard";
 import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {

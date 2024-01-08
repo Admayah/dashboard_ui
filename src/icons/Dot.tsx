@@ -1,4 +1,10 @@
-const Dot = ({ isActive }) => {
+import React from "react";
+
+interface DotProps {
+  isActive?: boolean;
+}
+
+const Dot: React.FC<DotProps> = ({ isActive }) => {
   return (
     <svg
       width="30"

@@ -3,7 +3,15 @@ import FavouriteIcon from "../../icons/Favourite";
 import FlagIcon from "../../icons/Flag";
 import "./post.css";
 
-const PostCard = ({ username, dept, time, children, isImage }) => {
+interface Post {
+  username: string;
+  dept: string | number;
+  time?: number | string;
+  children: React.ReactNode;
+  isImage?: boolean;
+}
+
+const PostCard = ({ username, dept, time, children, isImage }: Post) => {
   return (
     <div className="post">
       <div className="postCardWrapper">
@@ -17,7 +25,7 @@ const PostCard = ({ username, dept, time, children, isImage }) => {
               <span className="userDept">{dept}</span>
               <span className="timeCreated">{time}</span>
             </div>
-           <div className={isImage ? "" : "postCardInfoBottom" }>
+            <div className={isImage ? "" : "postCardInfoBottom"}>
               <p>{children}</p>
             </div>
           </div>

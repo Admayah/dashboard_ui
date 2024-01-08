@@ -1,5 +1,10 @@
 import "./button.css";
-const ShowMoreButton = ({ text }) => {
+
+interface ShowMoreButtonProps {
+  text: string;
+}
+
+const ShowMoreButton: React.FC<ShowMoreButtonProps> = ({ text }) => {
   return (
     <button className="button">
       <span>Show More {text}</span>
