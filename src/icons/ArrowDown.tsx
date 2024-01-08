@@ -1,4 +1,8 @@
-const ArrowDown = ({isOpen}) => {
+interface ArrowDownProps {
+  isOpen?: boolean;
+}
+
+const ArrowDown: React.FC<ArrowDownProps> = ({ isOpen }) => {
   return (
     <svg
       width="30"

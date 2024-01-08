@@ -1,6 +1,8 @@
-import React from "react";
+interface ArrowUpProps {
+  isOpen?: boolean;
+}
 
-const ArrowUp = ({ isOpen }) => {
+const ArrowUp: React.FC<ArrowUpProps> = ({ isOpen }) => {
   return (
     <svg
       width="30"
