@@ -33,17 +33,17 @@ const Sidebar = () => {
         </section>
         <section className="sidebarBottom">
           <div className="avatarImage">
-            <img src="/public/static/images/Avatar.png" alt="avatar" />
+            <img src="/public/images/Avatar.png" alt="avatar" />
             <span className="status"></span>
           </div>
           <div className="avatarImage">
-            <img src="/public/static/images/Avatar2.png" alt="avatar" />
+            <img src="/public/images/Avatar2.png" alt="avatar" />
           </div>
           <div className="avatarImage">
-            <img src="/public/static/images/Avatar3.png" alt="avatar" />
+            <img src="/public/images/Avatar3.png" alt="avatar" />
           </div>
           <div className="avatarImage">
-            <img src="/public/static/images/Avatar4.png" alt="avatar" />
+            <img src="/public/images/Avatar4.png" alt="avatar" />
           </div>
           <div className="navIcon">
             <PlusIcon />
