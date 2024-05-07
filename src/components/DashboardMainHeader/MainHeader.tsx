@@ -65,8 +65,8 @@ const MainHeader = () => {
               isImage
             >
               <div className="postImg">
-                <img src="/public/images/post.png" alt="post" />
-                <img src="/public/images/post2.png" alt="post" />
+                <img src="/static/images/post.png" alt="post" />
+                <img src="/static/images/post2.png" alt="post" />
               </div>
             </PostCard>
           </div>

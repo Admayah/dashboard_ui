@@ -21,35 +21,35 @@ const DashboardAside = () => {
           <div className="asideMenuTop">
             <AsideType type="Direct Messages" />
             <AsideMenuItem
-              imageUrl="/src/assets/images/Avatar.png"
+              imageUrl="/static/images/Avatar.png"
               name="Ina Perry"
               statusOrTotal="Online"
               timeOrValue="12:45"
               isAvatar
             />
             <AsideMenuItem
-              imageUrl="/src/assets/images/Avatar.png"
+              imageUrl="/static/images/Avatar.png"
               name="Ina Perry"
               statusOrTotal="Online"
               timeOrValue="12:45"
               isAvatar
             />
             <AsideMenuItem
-              imageUrl="/src/assets/images/Avatar.png"
+              imageUrl="/static/images/Avatar.png"
               name="Ina Perry"
               statusOrTotal="Online"
               timeOrValue="12:45"
               isAvatar
             />
             <AsideMenuItem
-              imageUrl="/src/assets/images/Avatar.png"
+              imageUrl="/static/images/Avatar.png"
               name="Ina Perry"
               statusOrTotal="Work"
               timeOrValue="12:45"
               isAvatar
             />
             <AsideMenuItem
-              imageUrl="/src/assets/images/Avatar.png"
+              imageUrl="/static/images/Avatar.png"
               name="Ina Perry"
               statusOrTotal="Offline"
               timeOrValue="12:45"
@@ -61,7 +61,7 @@ const DashboardAside = () => {
             <AsideType type="# Channels" />
             <AsideMenuItem
               iconComponent={<DotIcon />}
-              // imageUrl="/src/assets/images/Avatar.png"
+              // imageUrl="/static/images/Avatar.png"
               name="How To Frotend"
               statusOrTotal="+12"
               timeOrValue="564"
@@ -69,7 +69,7 @@ const DashboardAside = () => {
             />
             <AsideMenuItem
               iconComponent={<DotIcon />}
-              // imageUrl="/src/assets/images/Avatar.png"
+              // imageUrl="/static/images/Avatar.png"
               name="Payment Workers"
               statusOrTotal="+12"
               timeOrValue="564"
@@ -77,7 +77,7 @@ const DashboardAside = () => {
             />
             <AsideMenuItem
               iconComponent={<DotIcon />}
-              // imageUrl="/src/assets/images/Avatar.png"
+              // imageUrl="/static/images/Avatar.png"
               name="Web Designer"
               statusOrTotal="+12"
               timeOrValue="564"
@@ -85,7 +85,7 @@ const DashboardAside = () => {
             />
             <AsideMenuItem
               iconComponent={<DotIcon />}
-              // imageUrl="/src/assets/images/Avatar.png"
+              // imageUrl="/static/images/Avatar.png"
               name="President of Sales"
               statusOrTotal="+12"
               timeOrValue="564"
@@ -93,7 +93,7 @@ const DashboardAside = () => {
             />
             <AsideMenuItem
               iconComponent={<DotIcon />}
-              // imageUrl="/src/assets/images/Avatar.png"
+              // imageUrl="/static/images/Avatar.png"
               name="Marketing Coordinator"
               statusOrTotal="+!2"
               timeOrValue="564"
@@ -106,7 +106,7 @@ const DashboardAside = () => {
             <AsideType type="Project Companies" />
             <AsideMenuItem
               iconComponent={<DotIcon />}
-              // imageUrl="/src/assets/images/Avatar.png"
+              // imageUrl="/static/images/Avatar.png"
               name="Walt Disney"
               statusOrTotal="+12"
               timeOrValue="564"
@@ -114,7 +114,7 @@ const DashboardAside = () => {
             />
             <AsideMenuItem
               iconComponent={<DotIcon />}
-              // imageUrl="/src/assets/images/Avatar.png"
+              // imageUrl="/static/images/Avatar.png"
               name="Johnson & Johnson"
               statusOrTotal="+12"
               timeOrValue="456"
@@ -122,7 +122,7 @@ const DashboardAside = () => {
             />
             <AsideMenuItem
               iconComponent={<DotIcon />}
-              // imageUrl="/src/assets/images/Avatar.png"
+              // imageUrl="/static/images/Avatar.png"
               name="General Electric"
             //   statusOrTotal="+12"
               timeOrValue="387"
@@ -130,7 +130,7 @@ const DashboardAside = () => {
             />
             <AsideMenuItem
               iconComponent={<DotIcon />}
-              // imageUrl="/src/assets/images/Avatar.png"
+              // imageUrl="/static/images/Avatar.png"
               name="Bank of America"
             //   statusOrTotal="+12"
               timeOrValue="321"

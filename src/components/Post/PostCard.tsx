@@ -17,7 +17,7 @@ const PostCard = ({ username, dept, time, children, isImage }: Post) => {
       <div className="postCardWrapper">
         <div className="postCardLeft">
           <div className="userAvatar">
-            <img src="/public/images/Avatar.png" alt="avatar" />
+            <img src="/static/images/Avatar.png" alt="avatar" />
           </div>
           <div className="postCardInfo">
             <div className="postCardInfoTop">
